@@ -210,12 +210,51 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
 
 
 ### 🧰 Recursos y Tecnologías Necesarias
-- **Frontend**: React.js, HTML, CSS, JavaScript.
-- **Backend**: Django REST Framework, Python.
-- **Chatbot**: Dialogflow.
-- **Base de Datos**: MySQL.
-- **Pagos**: API de PayPal.
-- **Infraestructura**: Docker para contenedores, GitLab CI/CD para integración continua.
+
+#### Lenguajes de Programación
+- 🐍 **Python**: Utilizado para el desarrollo del backend y la implementación de microservicios.
+- 🌐 **JavaScript**: Utilizado para el desarrollo del frontend con React.js.
+
+#### Frameworks y Librerías
+- 🛠️ **Django**: Framework Python para el desarrollo de microservicios y APIs RESTful.
+- 🧩 **Django REST Framework**: Extensión de Django para la creación de APIs RESTful.
+- ⚛️ **React.js**: Librería JavaScript para la construcción de interfaces de usuario dinámicas y responsivas.
+- 🎨 **Material-UI**: Librería de componentes React para el diseño responsivo y estilización del frontend.
+
+#### Bases de Datos
+- 🗄️ **MySQL**: Sistema de gestión de bases de datos relacional para almacenar y gestionar datos de usuarios, eventos, inscripciones y pagos.
+
+#### Herramientas de Desarrollo
+- 🧪 **Postman**: Herramienta para probar y documentar APIs RESTful.
+- 🐙 **GitLab CI/CD**: Plataforma para integración y despliegue continuo, facilitando el flujo de trabajo de desarrollo y despliegue.
+- 🖥️ **Visual Studio Code**: Editor de código con extensiones para Python, JavaScript y otras tecnologías utilizadas en el proyecto.
+
+#### Seguridad
+- 🔐 **JWT (JSON Web Tokens)**: Para la autenticación y autorización segura de usuarios.
+- 🌐 **HTTPS/SSL**: Para asegurar la comunicación entre el cliente y el servidor.
+- 🔑 **2FA (Autenticación de Dos Factores)**: Para añadir una capa adicional de seguridad en el acceso de usuarios.
+
+#### Integración y Sincronización
+- 🔗 **Dialogflow**: Para la integración del chatbot con el sistema.
+- 🔄 **OAuth**: Para la autorización segura y la integración con servicios externos.
+
+#### Pruebas y Calidad
+- 🧩 **PyTest**: Framework para pruebas unitarias en Python.
+- 🔄 **Jest**: Herramienta para pruebas de integración y end-to-end en el frontend.
+- 👥 **Sesiones de Prueba con Usuarios**: Para validar la funcionalidad y usabilidad del sistema.
+
+#### Monitoreo y Mantenimiento
+- 📈 **Prometheus**: Herramienta para monitoreo del rendimiento de la aplicación.
+- 🛠️ **Sentry**: Plataforma para la detección y seguimiento de errores en tiempo real.
+
+#### Documentación
+- 📚 **Swagger**: Herramienta para la documentación de APIs RESTful.
+- 📝 **Markdown**: Para la creación de documentación técnica y manuales de usuario.
+
+#### Otros Recursos
+- 🖥️ **Servidor de Producción**: Infraestructura para el despliegue del sistema en un entorno de producción.
+- 💾 **Backups Automáticos**: Configuración de cron jobs para realizar respaldos periódicos de la base de datos.
+
 
 ### 🚀 Pasos para Ejecutar el Proyecto
 1. **Clonar el repositorio**.
