@@ -1,28 +1,28 @@
-### 🏢 Título del Proyecto
+### 🏢 Título del Proyecto ********************
 **Chatbot_de_Asistencia_de_Registro**
 
-### 📌 Requerimientos del Cliente
-1. **Asistente Virtual de Servicios**: Un chatbot que asista a los usuarios durante el proceso de registro.
-2. **Chatbot de Asistencia a Clientes**: Capaz de responder consultas relacionadas con el evento y el proceso de inscripción.
-3. **Formulario de Registro**: Administración de inscripciones y procesamiento de pagos a través de PayPal.
-
-### 📋 Descripción General del Proyecto
+### 📋 Descripción General del Proyecto ********************
 El proyecto consiste en desarrollar una plataforma web que permita a los usuarios registrarse para un evento. 
 Los usuarios podrán crear una cuenta, completar un formulario de inscripción y pagar su boleto. 
 Además, se integrará un chatbot que asistirá a los usuarios durante el proceso de inscripción y responderá sus preguntas.
 
-### ✨ Características del Proyecto
+### 📌 Requerimientos del Cliente ********************
+1. **Asistente Virtual de Servicios**: Un chatbot que asista a los usuarios durante el proceso de registro.
+2. **Chatbot de Asistencia a Clientes**: Capaz de responder consultas relacionadas con el evento y el proceso de inscripción.
+3. **Formulario de Registro**: Administración de inscripciones y procesamiento de pagos a través de PayPal.
+4. 
+### ✨ Características del Proyecto ********************
 - **Registro de Usuarios**: Creación de cuentas y autenticación.
 - **Formulario de Inscripción**: Recopilación de datos necesarios para el evento.
 - **Procesamiento de Pagos**: Integración con PayPal para la compra de boletos.
 - **Chatbot de Asistencia**: Implementado con Dialogflow para responder preguntas y guiar a los usuarios.
 
-### 📊 Análisis
+### 📊 Análisis ********************
 - **Usuarios Objetivo**: Personas interesadas en registrarse para eventos.
 - **Requisitos Funcionales**: Registro de usuarios, formulario de inscripción, procesamiento de pagos, asistencia mediante chatbot.
 - **Requisitos No Funcionales**: Seguridad, escalabilidad, usabilidad.
 
-### 📅 Planificación
+### 📅 Planificación ********************
 1. **Fase de Requisitos**: Recopilación y análisis de requisitos.
 2. **Fase de Diseño**: Diseño de la arquitectura del sistema y la interfaz de usuario.
 3. **Fase de Desarrollo**: Implementación de funcionalidades.
@@ -30,7 +30,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
 5. **Fase de Implementación**: Despliegue del sistema en producción.
 6. **Fase de Mantenimiento**: Corrección de errores y mejoras continuas.
 
-### 🏗️ Arquitectura del Sistema
+### 🏗️ Arquitectura del Sistema ********************
 **Arquitectura de Microservicios**: Se utilizará una arquitectura de microservicios para permitir una mayor escalabilidad y mantenimiento. Cada componente del sistema (registro de usuarios, formulario de inscripción, procesamiento de pagos, chatbot) será un microservicio independiente.
 
 **Diseño**:
@@ -68,7 +68,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
 - **Django REST**: Proporciona una API robusta y fácil de mantener.
 - **Dialogflow**: Permite crear un chatbot inteligente y fácil de integrar.
 
-### 🛠️ Descomposición Detallada con Arquitectura en Capas y Microservicios
+### 🛠️ Descomposición Detallada con Arquitectura en Capas y Microservicios ********************
 
 1. **🔧 Configuración del Entorno de Desarrollo**
    - 🖥️ **Instalación de Herramientas**
@@ -209,7 +209,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
      - Establecer un plan de mantenimiento y actualización continua.
 
 
-### 🧰 Recursos y Tecnologías Necesarias
+### 🧰 Recursos y Tecnologías Necesarias ********************
 
 #### Lenguajes de Programación
 - 🐍 **Python**: Utilizado para el desarrollo del backend y la implementación de microservicios.
@@ -256,7 +256,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
 - 💾 **Backups Automáticos**: Configuración de cron jobs para realizar respaldos periódicos de la base de datos.
 
 
-### 🚀 Pasos para Ejecutar el Proyecto
+### 🚀 Pasos para Ejecutar el Proyecto ********************
 
 1. **📂 Clonar el Repositorio**
    - Clona el repositorio del proyecto desde GitLab:
@@ -436,7 +436,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
    - Planifica actualizaciones regulares y mejoras basadas en la retroalimentación de los usuarios.
 
 
-### 📦 Dependencias
+### 📦 Dependencias ********************
 
 #### 🐍 Backend (Python y Microservicios)
 - **Django**: Framework Python para el desarrollo de microservicios y APIs RESTful.
@@ -653,7 +653,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
   pip install django-two-factor-auth
   ```
 
-### 🧩 Integración y Sincronización
+### 🧩 Integración y Sincronización ********************
 
 #### 🔗 Integración de Microservicios
 
@@ -874,7 +874,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
      sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/nginx-selfsigned.key -out /etc/ssl/certs/nginx-selfsigned.crt
      ```
 
-#### 🧪 Pruebas y Calidad
+#### 🧪 Pruebas y Calidad ********************
 - **PyTest**: Framework para pruebas unitarias en Python.
   ```bash
   pip install pytest
