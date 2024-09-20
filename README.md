@@ -32,13 +32,13 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
 ## 🏗️ Arquitectura del Sistema 
 **Arquitectura de Microservicios**: Se utilizará una arquitectura de microservicios para permitir una mayor escalabilidad y mantenimiento. Cada componente del sistema (registro de usuarios, formulario de inscripción, procesamiento de pagos, chatbot) será un microservicio independiente.
 
-**Diseño**:
+### Diseño:
 - **Frontend**: React.js para la interfaz de usuario.
 - **Backend**: Django REST Framework para la API.
 - **Chatbot**: Dialogflow para la interacción con los usuarios.
 - **Base de Datos**: MySQL para el almacenamiento de datos.
 
-**Estructura del Proyecto**:
+### Estructura del Proyecto:
 ```
 /chatbot_de_asistencia_de_registro
 |-- /frontend
@@ -118,7 +118,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
 
 ```
 
-**Justificación**:
+### Justificación:
 - **Microservicios**: Facilitan la escalabilidad y el mantenimiento.
 - **React.js**: Ofrece una experiencia de usuario dinámica y reactiva.
 - **Django REST**: Proporciona una API robusta y fácil de mantener.
