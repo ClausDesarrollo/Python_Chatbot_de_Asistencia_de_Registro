@@ -1,28 +1,27 @@
-### 🏢 Título del Proyecto ********************
-**Chatbot_de_Asistencia_de_Registro**
+# Chatbot_de_Asistencia_de_Registro
 
-### 📋 Descripción General del Proyecto ********************
+## 📋 Descripción General del Proyecto 
 El proyecto consiste en desarrollar una plataforma web que permita a los usuarios registrarse para un evento. 
 Los usuarios podrán crear una cuenta, completar un formulario de inscripción y pagar su boleto. 
 Además, se integrará un chatbot que asistirá a los usuarios durante el proceso de inscripción y responderá sus preguntas.
 
-### 📌 Requerimientos del Cliente ********************
+## 📌 Requerimientos del Cliente 
 1. **Asistente Virtual de Servicios**: Un chatbot que asista a los usuarios durante el proceso de registro.
 2. **Chatbot de Asistencia a Clientes**: Capaz de responder consultas relacionadas con el evento y el proceso de inscripción.
 3. **Formulario de Registro**: Administración de inscripciones y procesamiento de pagos a través de PayPal.
-4. 
-### ✨ Características del Proyecto ********************
+   
+## ✨ Características del Proyecto 
 - **Registro de Usuarios**: Creación de cuentas y autenticación.
 - **Formulario de Inscripción**: Recopilación de datos necesarios para el evento.
 - **Procesamiento de Pagos**: Integración con PayPal para la compra de boletos.
 - **Chatbot de Asistencia**: Implementado con Dialogflow para responder preguntas y guiar a los usuarios.
 
-### 📊 Análisis ********************
+## 📊 Análisis 
 - **Usuarios Objetivo**: Personas interesadas en registrarse para eventos.
 - **Requisitos Funcionales**: Registro de usuarios, formulario de inscripción, procesamiento de pagos, asistencia mediante chatbot.
 - **Requisitos No Funcionales**: Seguridad, escalabilidad, usabilidad.
 
-### 📅 Planificación ********************
+## 📅 Planificación 
 1. **Fase de Requisitos**: Recopilación y análisis de requisitos.
 2. **Fase de Diseño**: Diseño de la arquitectura del sistema y la interfaz de usuario.
 3. **Fase de Desarrollo**: Implementación de funcionalidades.
@@ -30,7 +29,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
 5. **Fase de Implementación**: Despliegue del sistema en producción.
 6. **Fase de Mantenimiento**: Corrección de errores y mejoras continuas.
 
-### 🏗️ Arquitectura del Sistema ********************
+## 🏗️ Arquitectura del Sistema 
 **Arquitectura de Microservicios**: Se utilizará una arquitectura de microservicios para permitir una mayor escalabilidad y mantenimiento. Cada componente del sistema (registro de usuarios, formulario de inscripción, procesamiento de pagos, chatbot) será un microservicio independiente.
 
 **Diseño**:
@@ -68,7 +67,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
 - **Django REST**: Proporciona una API robusta y fácil de mantener.
 - **Dialogflow**: Permite crear un chatbot inteligente y fácil de integrar.
 
-### 🛠️ Descomposición Detallada con Arquitectura en Capas y Microservicios ********************
+## 🛠️ Descomposición Detallada con Arquitectura en Capas y Microservicios 
 
 1. **🔧 Configuración del Entorno de Desarrollo**
    - 🖥️ **Instalación de Herramientas**
@@ -209,54 +208,54 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
      - Establecer un plan de mantenimiento y actualización continua.
 
 
-### 🧰 Recursos y Tecnologías Necesarias ********************
+## 🧰 Recursos y Tecnologías Necesarias 
 
-#### Lenguajes de Programación
+### Lenguajes de Programación
 - 🐍 **Python**: Utilizado para el desarrollo del backend y la implementación de microservicios.
 - 🌐 **JavaScript**: Utilizado para el desarrollo del frontend con React.js.
 
-#### Frameworks y Librerías
+### Frameworks y Librerías
 - 🛠️ **Django**: Framework Python para el desarrollo de microservicios y APIs RESTful.
 - 🧩 **Django REST Framework**: Extensión de Django para la creación de APIs RESTful.
 - ⚛️ **React.js**: Librería JavaScript para la construcción de interfaces de usuario dinámicas y responsivas.
 - 🎨 **Material-UI**: Librería de componentes React para el diseño responsivo y estilización del frontend.
 
-#### Bases de Datos
+### Bases de Datos
 - 🗄️ **MySQL**: Sistema de gestión de bases de datos relacional para almacenar y gestionar datos de usuarios, eventos, inscripciones y pagos.
 
-#### Herramientas de Desarrollo
+### Herramientas de Desarrollo
 - 🧪 **Postman**: Herramienta para probar y documentar APIs RESTful.
 - 🐙 **GitLab CI/CD**: Plataforma para integración y despliegue continuo, facilitando el flujo de trabajo de desarrollo y despliegue.
 - 🖥️ **Visual Studio Code**: Editor de código con extensiones para Python, JavaScript y otras tecnologías utilizadas en el proyecto.
 
-#### Seguridad
+### Seguridad
 - 🔐 **JWT (JSON Web Tokens)**: Para la autenticación y autorización segura de usuarios.
 - 🌐 **HTTPS/SSL**: Para asegurar la comunicación entre el cliente y el servidor.
 - 🔑 **2FA (Autenticación de Dos Factores)**: Para añadir una capa adicional de seguridad en el acceso de usuarios.
 
-#### Integración y Sincronización
+### Integración y Sincronización
 - 🔗 **Dialogflow**: Para la integración del chatbot con el sistema.
 - 🔄 **OAuth**: Para la autorización segura y la integración con servicios externos.
 
-#### Pruebas y Calidad
+### Pruebas y Calidad
 - 🧩 **PyTest**: Framework para pruebas unitarias en Python.
 - 🔄 **Jest**: Herramienta para pruebas de integración y end-to-end en el frontend.
 - 👥 **Sesiones de Prueba con Usuarios**: Para validar la funcionalidad y usabilidad del sistema.
 
-#### Monitoreo y Mantenimiento
+### Monitoreo y Mantenimiento
 - 📈 **Prometheus**: Herramienta para monitoreo del rendimiento de la aplicación.
 - 🛠️ **Sentry**: Plataforma para la detección y seguimiento de errores en tiempo real.
 
-#### Documentación
+### Documentación
 - 📚 **Swagger**: Herramienta para la documentación de APIs RESTful.
 - 📝 **Markdown**: Para la creación de documentación técnica y manuales de usuario.
 
-#### Otros Recursos
+### Otros Recursos
 - 🖥️ **Servidor de Producción**: Infraestructura para el despliegue del sistema en un entorno de producción.
 - 💾 **Backups Automáticos**: Configuración de cron jobs para realizar respaldos periódicos de la base de datos.
 
 
-### 🚀 Pasos para Ejecutar el Proyecto ********************
+## 🚀 Pasos para Ejecutar el Proyecto 
 
 1. **📂 Clonar el Repositorio**
    - Clona el repositorio del proyecto desde GitLab:
@@ -436,9 +435,9 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
    - Planifica actualizaciones regulares y mejoras basadas en la retroalimentación de los usuarios.
 
 
-### 📦 Dependencias ********************
+## 📦 Dependencias 
 
-#### 🐍 Backend (Python y Microservicios)
+### 🐍 Backend (Python y Microservicios)
 - **Django**: Framework Python para el desarrollo de microservicios y APIs RESTful.
   ```bash
   pip install django
@@ -464,7 +463,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
   pip install dialogflow
   ```
 
-#### 🌐 Frontend (JavaScript y React.js)
+### 🌐 Frontend (JavaScript y React.js)
 - **React.js**: Librería JavaScript para la construcción de interfaces de usuario dinámicas y responsivas.
   ```bash
   npm install react react-dom
@@ -482,7 +481,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
   npm install react-router-dom
   ```
 
-#### 🛠️ Herramientas de Desarrollo
+### 🛠️ Herramientas de Desarrollo
 - **Postman**: Herramienta para probar y documentar APIs RESTful.
   ```bash
   # No requiere instalación específica, se descarga desde https://www.postman.com/downloads/
@@ -514,7 +513,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
   # No requiere instalación específica, se descarga desde https://code.visualstudio.com/
   ```
 
-#### 🔒 Seguridad
+### 🔒 Seguridad
 - **JWT (JSON Web Tokens)**: Para la autenticación y autorización segura de usuarios.
   ```bash
   pip install djangorestframework-jwt
@@ -528,7 +527,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
   pip install django-two-factor-auth
   ```
 
-#### 🔗 Integración y Sincronización
+### 🔗 Integración y Sincronización
 - **Dialogflow**: Para la integración del chatbot con el sistema.
   ```bash
   pip install dialogflow
@@ -538,7 +537,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
   pip install django-oauth-toolkit
   ```
 
-#### 🧪 Pruebas y Calidad
+### 🧪 Pruebas y Calidad
 - **PyTest**: Framework para pruebas unitarias en Python.
   ```bash
   pip install pytest
@@ -552,7 +551,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
   # No requiere instalación específica, se planifican y ejecutan manualmente.
   ```
 
-#### 📈 Monitoreo y Mantenimiento
+### 📈 Monitoreo y Mantenimiento
 - **Prometheus**: Herramienta para monitoreo del rendimiento de la aplicación.
   ```bash
   # Configuración en el archivo prometheus.yml
@@ -569,7 +568,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
   pip install sentry-sdk
   ```
 
-#### 📚 Documentación
+### 📚 Documentación
 - **Swagger**: Herramienta para la documentación de APIs RESTful.
   ```bash
   pip install drf-yasg
@@ -579,7 +578,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
   # No requiere instalación específica, se utiliza en archivos .md
   ```
 
-#### Otros Recursos
+### Otros Recursos
 - **Servidor de Producción**: Infraestructura para el despliegue del sistema en un entorno de producción.
   ```bash
   # Configuración del servidor web (por ejemplo, Nginx o Apache)
@@ -589,7 +588,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
   # Configuración de cron jobs en el servidor
   ```
 
-#### 🌐 Frontend (JavaScript y React.js)
+### 🌐 Frontend (JavaScript y React.js)
 - **React.js**: Librería JavaScript para la construcción de interfaces de usuario dinámicas y responsivas.
   ```bash
   npm install react react-dom
@@ -607,7 +606,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
   npm install react-router-dom
   ```
 
-#### 🛠️ Herramientas de Desarrollo
+### 🛠️ Herramientas de Desarrollo
 - **Postman**: Herramienta para probar y documentar APIs RESTful.
   ```bash
   # No requiere instalación específica, se descarga desde https://www.postman.com/downloads/
@@ -639,7 +638,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
   # No requiere instalación específica, se descarga desde https://code.visualstudio.com/
   ```
 
-#### 🔒 Seguridad
+### 🔒 Seguridad
 - **JWT (JSON Web Tokens)**: Para la autenticación y autorización segura de usuarios.
   ```bash
   pip install djangorestframework-jwt
@@ -653,9 +652,9 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
   pip install django-two-factor-auth
   ```
 
-### 🧩 Integración y Sincronización ********************
+## 🧩 Integración y Sincronización
 
-#### 🔗 Integración de Microservicios
+### 🔗 Integración de Microservicios
 
 1. **🔧 Servicio de Autenticación y Registro de Usuarios**
    - **Descripción**: Este microservicio se encarga de la autenticación y registro de usuarios, incluyendo la gestión de perfiles y roles.
@@ -793,7 +792,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
        }
        ```
 
-#### 🌐 Integración del Frontend con los Microservicios
+### 🌐 Integración del Frontend con los Microservicios
 
 1. **🔄 Configuración de Axios**
    - **Descripción**: Axios se utiliza para realizar solicitudes HTTP a los microservicios desde el frontend.
@@ -850,7 +849,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
      export default EventList;
      ```
 
-#### 🔒 Seguridad y Autenticación
+### 🔒 Seguridad y Autenticación
 
 1. **🔐 Implementación de JWT**
    - **Descripción**: Uso de JWT para la autenticación y autorización de usuarios en los microservicios.
@@ -874,7 +873,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
      sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/nginx-selfsigned.key -out /etc/ssl/certs/nginx-selfsigned.crt
      ```
 
-#### 🧪 Pruebas y Calidad 
+### 🧪 Pruebas y Calidad 
 - **PyTest**: Framework para pruebas unitarias en Python.
   ```bash
   pip install pytest
@@ -888,7 +887,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
   # No requiere instalación específica, se planifican y ejecutan manualmente.
   ```
 
-#### 📈 Monitoreo y Mantenimiento
+### 📈 Monitoreo y Mantenimiento
 - **Prometheus**: Herramienta para monitoreo del rendimiento de la aplicación.
   ```bash
   # Configuración en el archivo prometheus.yml
@@ -905,7 +904,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
   pip install sentry-sdk
   ```
 
-#### 📚 Documentación
+### 📚 Documentación
 - **Swagger**: Herramienta para la documentación de APIs RESTful.
   ```bash
   pip install drf-yasg
@@ -915,7 +914,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
   # No requiere instalación específica, se utiliza en archivos .md
   ```
 
-#### Otros Recursos
+### Otros Recursos
 - **Servidor de Producción**: Infraestructura para el despliegue del sistema en un entorno de producción.
   ```bash
   # Configuración del servidor web (por ejemplo, Nginx o Apache)
@@ -925,9 +924,9 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
   # Configuración de cron jobs en el servidor
   ```
   
-### 🧪 Pruebas y Calidad *******************
+## 🧪 Pruebas y Calidad
 
-#### 🔍 Estrategia de Pruebas
+### 🔍 Estrategia de Pruebas
 
 1. **🧩 Pruebas Unitarias**
    - **Descripción**: Validan la funcionalidad de componentes individuales (clases, métodos) de cada microservicio.
@@ -1008,7 +1007,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
      }
      ```
 
-#### 🔄 Integración Continua y Entrega Continua (CI/CD)
+### 🔄 Integración Continua y Entrega Continua (CI/CD)
 
 1. **🛠️ Configuración de GitLab CI/CD**
    - **Descripción**: Automatiza la ejecución de pruebas y el despliegue de la aplicación.
@@ -1045,7 +1044,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
          - sonar-scanner
      ```
 
-#### 📈 Monitoreo y Mantenimiento
+### 📈 Monitoreo y Mantenimiento
 
 1. **📊 Monitoreo del Rendimiento**
    - **Descripción**: Uso de herramientas para monitorear el rendimiento de los microservicios en producción.
@@ -1073,7 +1072,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
 
 ### 🔒 Seguridad ***************
 
-#### 🛡️ Estrategia de Seguridad en Capas
+### 🛡️ Estrategia de Seguridad en Capas
 
 1. **🌐 Capa de Red**
    - **Descripción**: Protege la comunicación entre microservicios y con el exterior.
@@ -1193,9 +1192,9 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
      - **Simulacros de Incidentes**: Realización de simulacros para preparar al equipo para responder a incidentes reales.
      - **Análisis Post-Incidente**: Evaluación de la respuesta a incidentes para identificar mejoras.
 
-### 🛡️ Protección  ***********
+## 🛡️ Protección
 
-#### 🔐 Protección de la Comunicación
+### 🔐 Protección de la Comunicación
 
 1. **🌐 Cifrado SSL/TLS**
    - **Descripción**: Asegura la comunicación entre el cliente y el servidor mediante cifrado.
@@ -1256,7 +1255,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
                                           ldap.SCOPE_SUBTREE, "(uid=%(user)s)")
        ```
 
-#### 🛡️ Protección de Datos
+### 🛡️ Protección de Datos
 
 1. **🔒 Cifrado de Datos en Reposo**
    - **Descripción**: Protege los datos almacenados en la base de datos mediante cifrado.
@@ -1284,7 +1283,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
        sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/nginx-selfsigned.key -out /etc/ssl/certs/nginx-selfsigned.crt
        ```
 
-#### 🛡️ Protección de la Aplicación
+### 🛡️ Protección de la Aplicación
 
 1. **🛡️ Validación de Entradas**
    - **Descripción**: Previene ataques de inyección validando todas las entradas del usuario.
@@ -1314,7 +1313,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
        zap-cli quick-scan http://localhost:8000
        ```
 
-#### 🔍 Monitoreo y Auditoría
+### 🔍 Monitoreo y Auditoría
 
 1. **📊 Monitoreo en Tiempo Real**
    - **Descripción**: Monitorea la aplicación en tiempo real para detectar y responder a incidentes de seguridad.
@@ -1358,7 +1357,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
        sudo lynis audit system
        ```
 
-#### 🔄 Respuesta a Incidentes
+### 🔄 Respuesta a Incidentes
 
 1. **📋 Plan de Respuesta a Incidentes**
    - **Descripción**: Desarrollo de un plan detallado para responder a incidentes de seguridad.
@@ -1404,7 +1403,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
 
 ### 📚 Documentación *************
 
-#### 📝 Documentación del Proyecto
+### 📝 Documentación del Proyecto
 
 1. **📄 Descripción General**
    - **Título del Proyecto**: Chatbot de Asistencia de Registro
@@ -1617,9 +1616,9 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
          - `PUT /api/events/{id}`: Actualizar un evento.
          - `DELETE /api/events/{id}`: Eliminar un evento.
 
-### 🏆 Implementación y Cierre *******************
+## 🏆 Implementación y Cierre
 
-#### 🚀 Despliegue del Proyecto
+### 🚀 Despliegue del Proyecto
 
 1. **📦 Preparación del Entorno de Producción**
    - **Descripción**: Configuración del entorno de producción para asegurar que todos los componentes del sistema funcionen correctamente.
@@ -1721,7 +1720,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
        newrelic-admin run-program gunicorn myapp.wsgi:application --bind 0.0.0.0:8001 --daemon
        ```
 
-#### 📚 Capacitación del Equipo
+### 📚 Capacitación del Equipo
 
 1. **👨‍🏫 Sesiones de Capacitación**
    - **Descripción**: Realización de sesiones de capacitación para asegurar que el equipo esté familiarizado con el sistema y sus funcionalidades.
@@ -1774,7 +1773,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
        - **Contenido**: Certificados SSL y monitoreo con New Relic.
        ```
 
-#### 🏁 Cierre del Proyecto
+### 🏁 Cierre del Proyecto
 
 1. **📊 Evaluación del Proyecto**
    - **Descripción**: Evaluación del proyecto para asegurar que se han cumplido los objetivos y obtener retroalimentación del equipo.
