@@ -1,0 +1,17 @@
+{
+  "intent": "greeting",
+  "examples": [
+    "Hola",
+    "Buenos días",
+    "Buenas tardes",
+    "Buenas noches",
+    "¿Qué tal?"
+  ],
+  "responses": [
+    "¡Hola! ¿En qué puedo ayudarte hoy?",
+    "¡Buenos días! ¿Cómo puedo asistirte?",
+    "¡Buenas tardes! ¿Qué necesitas?",
+    "¡Buenas noches! ¿En qué puedo ayudarte?",
+    "¡Hola! ¿Cómo estás?"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "intent": "registration",
+  "examples": [
+    "Quiero registrarme",
+    "Necesito crear una cuenta",
+    "¿Cómo me registro?",
+    "Registrar nuevo usuario",
+    "Crear cuenta nueva"
+  ],
+  "responses": [
+    "Para registrarte, por favor proporciona tu nombre, correo electrónico y una contraseña.",
+    "Puedes crear una cuenta proporcionando tu nombre, correo electrónico y una contraseña.",
+    "Para registrarte, sigue estos pasos: proporciona tu nombre, correo electrónico y una contraseña."
+  ]
+}

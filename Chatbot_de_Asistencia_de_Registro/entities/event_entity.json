@@ -1,0 +1,28 @@
+{
+  "entity": "event",
+  "values": [
+    {
+      "value": "título",
+      "synonyms": [
+        "nombre del evento",
+        "título del evento"
+      ]
+    },
+    {
+      "value": "descripción",
+      "synonyms": [
+        "detalle",
+        "detalle del evento",
+        "descripción del evento"
+      ]
+    },
+    {
+      "value": "fecha",
+      "synonyms": [
+        "día",
+        "fecha del evento",
+        "día del evento"
+      ]
+    }
+  ]
+}

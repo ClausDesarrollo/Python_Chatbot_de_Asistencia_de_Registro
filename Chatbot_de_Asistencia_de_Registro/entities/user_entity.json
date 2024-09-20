@@ -1,0 +1,29 @@
+{
+  "entity": "user",
+  "values": [
+    {
+      "value": "nombre",
+      "synonyms": [
+        "nombre de usuario",
+        "nombre completo",
+        "nombre del usuario"
+      ]
+    },
+    {
+      "value": "correo electrónico",
+      "synonyms": [
+        "email",
+        "correo",
+        "dirección de correo"
+      ]
+    },
+    {
+      "value": "contraseña",
+      "synonyms": [
+        "password",
+        "clave",
+        "clave de acceso"
+      ]
+    }
+  ]
+}
