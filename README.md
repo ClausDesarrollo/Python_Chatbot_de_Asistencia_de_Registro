@@ -1070,7 +1070,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
      });
      ```
 
-### 🔒 Seguridad ***************
+## 🔒 Seguridad
 
 ### 🛡️ Estrategia de Seguridad en Capas
 
@@ -1401,7 +1401,7 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
        6. Acciones Correctivas
        ```
 
-### 📚 Documentación *************
+## 📚 Documentación 
 
 ### 📝 Documentación del Proyecto
 
