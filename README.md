@@ -44,21 +44,78 @@ Además, se integrará un chatbot que asistirá a los usuarios durante el proces
 |-- /frontend
 |   |-- /src
 |       |-- /components
-|       |-- /services
+|           |-- UserList.js
+|           |-- UserDetail.js
+|           |-- CreateUser.js
+|           |-- EventList.js
+|           |-- EventDetail.js
+|           |-- CreateEvent.js
+|           |-- NotificationList.js
+|           |-- NotificationDetail.js
+|           |-- CreateNotification.js
+|       |-- /api
+|           |-- axiosInstance.js
 |       |-- App.js
+|       |-- index.js
 |-- /backend
-|   |-- /api
+|   |-- /user_service
 |       |-- /models
+|           |-- __init__.py
+|           |-- user.py
 |       |-- /views
+|           |-- __init__.py
+|           |-- user_view.py
 |       |-- /serializers
+|           |-- __init__.py
+|           |-- user_serializer.py
 |       |-- urls.py
+|       |-- admin.py
+|       |-- apps.py
+|       |-- tests.py
+|   |-- /event_service
+|       |-- /models
+|           |-- __init__.py
+|           |-- event.py
+|       |-- /views
+|           |-- __init__.py
+|           |-- event_view.py
+|       |-- /serializers
+|           |-- __init__.py
+|           |-- event_serializer.py
+|       |-- urls.py
+|       |-- admin.py
+|       |-- apps.py
+|       |-- tests.py
+|   |-- /notification_service
+|       |-- /models
+|           |-- __init__.py
+|           |-- notification.py
+|       |-- /views
+|           |-- __init__.py
+|           |-- notification_view.py
+|       |-- /serializers
+|           |-- __init__.py
+|           |-- notification_serializer.py
+|       |-- urls.py
+|       |-- admin.py
+|       |-- apps.py
+|       |-- tests.py
 |   |-- settings.py
+|   |-- wsgi.py
+|   |-- manage.py
 |-- /chatbot
 |   |-- /intents
+|       |-- greeting_intent.json
+|       |-- registration_intent.json
 |   |-- /entities
+|       |-- user_entity.json
+|       |-- event_entity.json
 |-- /database
 |   |-- /migrations
+|       |-- __init__.py
+|       |-- 0001_initial.py
 |   |-- models.py
+
 ```
 
 **Justificación**:
